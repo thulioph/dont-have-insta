@@ -7,3 +7,5 @@ arquivos/*
 libs/js/jquery/*
 libs/js/OwlCarousel/*
 src/*
+.gitignore
+config.rb
