@@ -7,7 +7,7 @@
 	<script src="dist/js/main.js"></script>
 
 	<script>
-		Main.setUp();
+		window.InstagramApp.init();
 	</script>
 
 </body>

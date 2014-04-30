@@ -348,6 +348,7 @@ input.submit {
   -ms-appearance: none;
   -o-appearance: none;
   appearance: none;
+  cursor: pointer;
 }
 
 /* line 76, ../sass/partials/home.scss */
