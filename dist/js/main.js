@@ -29,7 +29,8 @@
 		},
 
         getImages: function() {
-            var input = document.getElementById('tag'),
+            var that = this,
+                input = document.getElementById('tag'),
                 wrapper = document.getElementById('wrapper'),
                 value   = input.value,
                 tag = value.replace(/\s+/g, ''),
