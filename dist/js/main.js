@@ -19,7 +19,8 @@ Main = {
 	Instagram: {
 		createPhotos: function() {
 
-		var form  = document.getElementsByTagName('form');
+		var previousTag = null,
+			form  = document.getElementsByTagName('form');
 
 		$(form).on('submit', function(event){
 			var input = document.getElementById('tag'),
@@ -36,6 +37,10 @@ Main = {
 				var instagram = function() {
 					return {
 						init: function() {
+							if (tag != previousTag) {
+								instagram.resetImages();
+							}
+							previousTag = tag;
 							instagram.loadImages();
 						},
 						loadImages: function() {
@@ -65,6 +70,9 @@ Main = {
 									alert('This tag not exists!');
 								}
 							});
+						},
+						resetImages: function() {
+							$("#list-instagram").empty();
 						}
 					}
 				}();
