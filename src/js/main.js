@@ -19,7 +19,6 @@ Main = {
 	Instagram: {
 		createPhotos: function() {
 
-		// var form  = document.getElementsByTagName('form');
 		var previousTag = null,
 			form  = document.getElementsByTagName('form');
 
@@ -34,11 +33,10 @@ Main = {
 					limit = 20, //Limite máximo de fotos
 					setSize = "medium";
 
-
 				var instagram = function() {
 					return {
 						init: function() {
-							if(tag != previousTag) {
+							if (tag != previousTag) {
 								instagram.resetImages();
 							}
 							previousTag = tag;
