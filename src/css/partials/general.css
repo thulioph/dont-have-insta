@@ -1,0 +1,81 @@
+/* line 5, ../../sass/partials/general.scss */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 11, ../../sass/partials/general.scss */
+.clear {
+  clear: both;
+}
+
+/* line 13, ../../sass/partials/general.scss */
+html, body {
+  height: 100%;
+  font-family: "source-light";
+}
+
+/* line 18, ../../sass/partials/general.scss */
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+/* line 24, ../../sass/partials/general.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 28, ../../sass/partials/general.scss */
+input {
+  border: none;
+}
+/* line 30, ../../sass/partials/general.scss */
+input:focus {
+  border: none;
+  outline: none;
+}
+
+/* line 37, ../../sass/partials/general.scss */
+select:focus {
+  border: none;
+  outline: none;
+}
+
+/* line 43, ../../sass/partials/general.scss */
+::-moz-selection {
+  background: #af2a3d;
+  text-shadow: none;
+  color: #f5f1e8;
+}
+
+/* line 49, ../../sass/partials/general.scss */
+::selection {
+  background: #af2a3d;
+  text-shadow: none;
+  color: #f5f1e8;
+}
+
+/* line 55, ../../sass/partials/general.scss */
+::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+/* line 59, ../../sass/partials/general.scss */
+:-moz-placeholder {
+  color: #ffffff;
+}
+
+/* line 63, ../../sass/partials/general.scss */
+::-moz-placeholder {
+  color: #ffffff;
+}
+
+/* line 67, ../../sass/partials/general.scss */
+:-ms-input-placeholder {
+  color: #ffffff;
+}

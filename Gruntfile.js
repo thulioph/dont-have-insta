@@ -11,7 +11,7 @@ module.exports = function( grunt ) {
 			css: {
 				// options: {livereload: true},
 				files: [ 'src/sass/**/*' ],
-				tasks: [ 'clean', 'compass', 'concat' ]
+				tasks: [ 'compass', 'concat' ]
 			},
 			js: {
 				files: 'src/js/**/*',

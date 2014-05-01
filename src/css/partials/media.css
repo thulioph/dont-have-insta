@@ -1,0 +1,53 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* line 4, ../../sass/partials/media.scss */
+  .header {
+    height: 29%;
+  }
+
+  /* line 7, ../../sass/partials/media.scss */
+  .list-instagram {
+    width: 3280px;
+  }
+
+  /* line 10, ../../sass/partials/media.scss */
+  .wrapper {
+    height: 64%;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 16, ../../sass/partials/media.scss */
+  .wrapper {
+    height: 61%;
+  }
+
+  /* line 20, ../../sass/partials/media.scss */
+  .list-instagram figure {
+    margin-bottom: 90px;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 27, ../../sass/partials/media.scss */
+  .header {
+    height: 27%;
+  }
+
+  /* line 30, ../../sass/partials/media.scss */
+  input.pattern {
+    margin: 5px 10px 5px 35px;
+  }
+
+  /* line 33, ../../sass/partials/media.scss */
+  input.submit {
+    top: 3px;
+  }
+
+  /* line 36, ../../sass/partials/media.scss */
+  .form-instagram {
+    height: 50px;
+  }
+
+  /* line 39, ../../sass/partials/media.scss */
+  .wrapper {
+    height: 64%;
+  }
+}

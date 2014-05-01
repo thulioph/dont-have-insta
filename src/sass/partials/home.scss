@@ -1,0 +1,170 @@
+@import "base.scss";
+
+// header
+.header {
+	width: 100%;
+	height: 30%;
+	background-color: $color-primary;
+}
+.logo-primary {
+	float: left;
+	width: 85px;
+	height: 95px;
+	background: transparent url($BASEPATH + 'logo.png') no-repeat;
+	margin: 35px 20px 20px 20px;
+}
+.slide02 {
+	margin-top: 30px;
+	background: transparent url($BASEPATH + 'slide02.png') no-repeat;
+}
+.title-logo {
+	float: left;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: ($fs-normal) + 1;
+	margin-top: 70px;
+	&.secondary {
+		margin-top: 70px;
+		font-size: ($fs-normal) + .6;
+	}
+}
+
+// main
+.main {
+	width: 100%;
+	display: block;
+	margin-top: -1px;
+}
+
+.form-instagram {
+	height: 70px;
+	background-color: $color-secondary;
+	position: relative;
+}
+
+input {
+	&.pattern {
+		width: 280px;
+		height: 40px;
+		padding: 5px 40px 5px 10px;
+		margin: 15px 10px 10px 35px;
+		background-color: $color-other;
+		opacity: .6;
+		color: #ffffff;
+		font-size: ($fs-normal) + .6;
+
+		@include bdr(0);
+		&:focus {
+			opacity: 1;
+		}
+	}
+
+	&.submit {
+		width: 32px;
+		height: 40px;
+		position: absolute;
+		right: 40px;
+		top: 15px;
+		background: transparent url($BASEPATH + 'ico-send.png') no-repeat -2px 8px;
+		color: transparent;
+
+		@include bdr(0);
+		@include apr(none);
+	}
+}
+
+.wrapper {
+	width: 100%;
+	min-height: 52%;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	overflow-y: hidden;
+	&.loading {
+		&::after {
+			content: '';
+			left: 50%;
+			top: 50%;
+			margin-left: -75px;
+			margin-top: -75px;
+			width: 150px;
+			height: 150px;
+			position: absolute;
+			background: transparent url($BASEPATH + 'ico-loading.png') no-repeat;
+			background-size:  150px 150px;
+			@include animation(loading, 2s, infinite, alternate);
+		}
+	}
+	&.error {
+		&::after {
+			content: '';
+			left: 50%;
+			top: 50%;
+			margin-left: -75px;
+			margin-top: -75px;
+			width: 150px;
+			height: 150px;
+			position: absolute;
+			background-size:  150px 150px;
+			background: transparent url($BASEPATH + 'ico-error.png') no-repeat;
+		}
+	}
+}
+
+// animation loading
+@-webkit-keyframes loading {
+	20% {@include rotate(20deg);}
+	40% {@include rotate(40deg);}
+	60% {@include rotate(60deg);}
+	80% {@include rotate(80deg);}
+	100% {@include rotate(100deg);}
+}
+@-moz-keyframes loading {
+	20% {@include rotate(20deg);}
+	40% {@include rotate(40deg);}
+	60% {@include rotate(60deg);}
+	80% {@include rotate(80deg);}
+	100% {@include rotate(100deg);}
+}
+@-ms-keyframes loading {
+	20% {@include rotate(20deg);}
+	40% {@include rotate(40deg);}
+	60% {@include rotate(60deg);}
+	80% {@include rotate(80deg);}
+	100% {@include rotate(100deg);}
+}
+@-o-keyframes loading {
+	20% {@include rotate(20deg);}
+	40% {@include rotate(40deg);}
+	60% {@include rotate(60deg);}
+	80% {@include rotate(80deg);}
+	100% {@include rotate(100deg);}
+}
+@keyframes loading {
+	20% {@include rotate(20deg);}
+	40% {@include rotate(40deg);}
+	60% {@include rotate(60deg);}
+	80% {@include rotate(80deg);}
+	100% {@include rotate(100deg);}
+}
+
+
+.list-instagram {
+	width: 6560px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	figure {
+		display: inline-block;
+		border: 1px solid $color-other;
+		margin: 10px;
+	}
+}
+
+
+// slide
+.slide {
+	width: 100%;
+	min-height: 158px;
+	height: 25%;
+}

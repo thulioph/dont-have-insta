@@ -29,9 +29,6 @@
 	<link rel="stylesheet" href=" <?php echo _CSSPATH . 'owl.carousel.css'?>">
     <link rel="stylesheet" href="dist/css/styles.combined.min.css">
 
-	<!-- HUMANS -->
-    <link type="text/plain" rel="author" href="http://www.dominio.com.br/humans.txt" />
-
     <!-- OPEN GRAPH -->
     <meta property='og:title' content="DON'T HAVE INSTA" />
     <meta property='og:description' content="Instagram for those who don't have" />

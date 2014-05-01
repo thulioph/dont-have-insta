@@ -1,0 +1,73 @@
+@import "base.scss";
+
+.modalOverlay {
+	background-color: rgba(0, 0, 0, 0.7);
+	display: inline-block;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+	.box {
+		background-color: #fff;
+		display: inline-block;
+		left: 50%;
+		position: absolute;
+		top: 50%;
+		@include bdr(10px);
+		@extend %bxs;
+
+		&.fale-conosco {
+			height: 290px;
+			margin: -145px 0 0 -200px;
+			width: 400px;
+		}
+
+		&.privacidade, &.termos {
+			height: 530px;
+			margin: -265px 0 0 -440px;
+			width: 880px;
+		}
+
+		.content {
+			height: 100%;
+			overflow-y: scroll;
+			padding: 35px;
+			position: relative;
+			width: 100%;
+			@extend %bxs;
+		}
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	p, b {
+		display: block;
+		font-size: 1.6em;
+		line-height: 1.4em;
+		padding-top: 20px;
+	}
+
+	p b {
+		padding-top: 0;
+	}
+
+	.sprite-btn-close {
+		cursor: pointer;
+		position: absolute;
+		right: 0;
+		top: -40px;
+	}
+
+	.loading {
+		height: 32px;
+		left: 50%;
+		margin: -16px 0 0 -16px;
+		position: absolute;
+		top: 50%;
+		width: 32px;
+	}
+}

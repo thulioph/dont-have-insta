@@ -1,0 +1,81 @@
+/* line 133, ../../sass/base.scss */
+.modalOverlay .box, .modalOverlay .box .content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 3, ../../sass/partials/modal.scss */
+.modalOverlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/* line 12, ../../sass/partials/modal.scss */
+.modalOverlay .box {
+  background-color: #fff;
+  display: inline-block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 21, ../../sass/partials/modal.scss */
+.modalOverlay .box.fale-conosco {
+  height: 290px;
+  margin: -145px 0 0 -200px;
+  width: 400px;
+}
+/* line 27, ../../sass/partials/modal.scss */
+.modalOverlay .box.privacidade, .modalOverlay .box.termos {
+  height: 530px;
+  margin: -265px 0 0 -440px;
+  width: 880px;
+}
+/* line 33, ../../sass/partials/modal.scss */
+.modalOverlay .box .content {
+  height: 100%;
+  overflow-y: scroll;
+  padding: 35px;
+  position: relative;
+  width: 100%;
+}
+/* line 43, ../../sass/partials/modal.scss */
+.modalOverlay h1 {
+  font-size: 3em;
+}
+/* line 47, ../../sass/partials/modal.scss */
+.modalOverlay p, .modalOverlay b {
+  display: block;
+  font-size: 1.6em;
+  line-height: 1.4em;
+  padding-top: 20px;
+}
+/* line 54, ../../sass/partials/modal.scss */
+.modalOverlay p b {
+  padding-top: 0;
+}
+/* line 58, ../../sass/partials/modal.scss */
+.modalOverlay .sprite-btn-close {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: -40px;
+}
+/* line 65, ../../sass/partials/modal.scss */
+.modalOverlay .loading {
+  height: 32px;
+  left: 50%;
+  margin: -16px 0 0 -16px;
+  position: absolute;
+  top: 50%;
+  width: 32px;
+}
