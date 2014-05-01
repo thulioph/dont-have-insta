@@ -12,7 +12,7 @@ Built for fun, if you don't have instagram you can view photos through hashtags
 
 ## References
 
-- [Lollagram](http://www.lollagram.com/)
+- [Chicagogram](http://www.chicagogram.us/) Uses Instagram Real Time API
 - [Instagram](http://instagram.com)
 
 
