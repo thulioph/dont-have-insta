@@ -1,0 +1,36 @@
+// animation loading
+@-webkit-keyframes loading {
+  20% {@include rotate(20deg);}
+  40% {@include rotate(40deg);}
+  60% {@include rotate(60deg);}
+  80% {@include rotate(80deg);}
+  100% {@include rotate(100deg);}
+}
+@-moz-keyframes loading {
+  20% {@include rotate(20deg);}
+  40% {@include rotate(40deg);}
+  60% {@include rotate(60deg);}
+  80% {@include rotate(80deg);}
+  100% {@include rotate(100deg);}
+}
+@-ms-keyframes loading {
+  20% {@include rotate(20deg);}
+  40% {@include rotate(40deg);}
+  60% {@include rotate(60deg);}
+  80% {@include rotate(80deg);}
+  100% {@include rotate(100deg);}
+}
+@-o-keyframes loading {
+  20% {@include rotate(20deg);}
+  40% {@include rotate(40deg);}
+  60% {@include rotate(60deg);}
+  80% {@include rotate(80deg);}
+  100% {@include rotate(100deg);}
+}
+@keyframes loading {
+  20% {@include rotate(20deg);}
+  40% {@include rotate(40deg);}
+  60% {@include rotate(60deg);}
+  80% {@include rotate(80deg);}
+  100% {@include rotate(100deg);}
+}

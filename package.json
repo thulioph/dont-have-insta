@@ -1,24 +1,21 @@
 {
-  "name": "catrina",
-  "version": "0.0.1",
-  "title": "Catrina",
-  "description": "Template Project Front-End",
-  "author": "Thulio Philioe <thulioph@gmail.com>",
-  "homepage": "https://github.com/thulioph/catrina",
-  "main": "Gruntfile.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/thulioph/catrina.git"
-  },
+  "name": "Dont-Have-Insta",
+  "version": "0.0.4",
+  "description": "",
+  "main": "index.html",
+  "author": "Thulio Philipe | thulioph.com",
+  "license": "BSD",
   "private": true,
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "matchdep": "~0.3.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-compass": "~0.7.0",
-    "grunt-contrib-uglify": "~0.2.7",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-imagemin": "~0.6.1"
+    "gulp-util": "~2.2.9",
+    "gulp-uglify": "^0.2.1",
+    "gulp-sass": "^0.7.1",
+    "gulp-concat": "^2.2.0",
+    "gulp-ruby-sass": "^0.4.0",
+    "gulp-minify-html": "^0.1.1",
+    "gulp-jshint": "^1.5.1",
+    "map-stream": "~0.1.0",
+    "gulp": "^3.6.0",
+    "gulp-sitemap": "^0.1.3"
   }
 }
